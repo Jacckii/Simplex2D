@@ -1,5 +1,5 @@
 //Simplex solver Spendley-Hext-Himsworth method
-//Autor: Filip Nejedlý
+//Autor: Filip NejedlÃ½
 //Git: https://github.com/Jacckii
 
 //Libraries used:
@@ -380,7 +380,7 @@ int main(int argc, char* argv[]) {
                             static std::chrono::system_clock::time_point last_time_stamp = std::chrono::system_clock::now();
                             auto step = 80;
                             auto max_ = simplex_records.size() - 1;
-                            ImGui::Text("%d/%d Krok iterace", pos, max_);
+                            ImGui::Text("%d/%d Iteration step", pos, max_);
                             ImGui::SliderInt("##timeline", &pos, 0, max_);
                             ImGui::SameLine();
                             if (ImGui::Button(playing ? "Stop!" : "Play!", ImVec2(-1.f, 0.f))) {
