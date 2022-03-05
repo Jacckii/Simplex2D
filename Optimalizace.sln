@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Optimalizace", "Optimalizace\Optimalizace.vcxproj", "{1C46D2DC-6166-4938-9CD5-03F32419D44D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C27D063F-663E-41E4-AA4D-6D93B6635638} = {C27D063F-663E-41E4-AA4D-6D93B6635638}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI", "GUI\GUI.vcxproj", "{C27D063F-663E-41E4-AA4D-6D93B6635638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C46D2DC-6166-4938-9CD5-03F32419D44D}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C46D2DC-6166-4938-9CD5-03F32419D44D}.Debug|x86.Build.0 = Debug|Win32
+		{1C46D2DC-6166-4938-9CD5-03F32419D44D}.Release|x86.ActiveCfg = Release|Win32
+		{1C46D2DC-6166-4938-9CD5-03F32419D44D}.Release|x86.Build.0 = Release|Win32
+		{C27D063F-663E-41E4-AA4D-6D93B6635638}.Debug|x86.ActiveCfg = Debug|Win32
+		{C27D063F-663E-41E4-AA4D-6D93B6635638}.Debug|x86.Build.0 = Debug|Win32
+		{C27D063F-663E-41E4-AA4D-6D93B6635638}.Release|x86.ActiveCfg = Release|Win32
+		{C27D063F-663E-41E4-AA4D-6D93B6635638}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C722028E-0B9C-4700-B049-3A22F2F14A8A}
+	EndGlobalSection
+EndGlobal
